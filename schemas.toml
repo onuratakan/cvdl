@@ -7,26 +7,28 @@ department = "Short Text"
 date = ["Short Text", "Date"]
 # Line above means date is either a "Short Text", or a "Date"
 # which means a structured date defined in TOML standard.
+# It is a syntactic sugar for line below
+# date = {primary_type = "Choice", secondary_type = ["Short Text", "Date"]}
 name = "Short Text"
 location = "Short Text"
-text = {primary_type = "List", secondary_type = "Short Text"}
+text = { primary_type = "List", secondary_type = "Short Text" }
 
 ["Custom Projects"]
 name = "Short Text"
 context = "Short Text"
 text = "Long Text"
-skills = "Short Text List"
+skills = { primary_type = "List", secondary_type = "Short Text" }
 
 ["Custom Publications"]
 link = "URL"
 name = "Short Text"
 venue = "Short Text"
-authors = "Short Text List"
+authors = { primary_type = "List", secondary_type = "Short Text" }
 
 ["Custom Organization"]
 name = "Short Text"
 location = "Short Text"
-roles = "Role List"
+roles = { primary_type = "List", secondary_type = "Role" }
 text = "Long Text"
 
 ["Role"]
