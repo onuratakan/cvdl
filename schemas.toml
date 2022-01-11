@@ -1,0 +1,47 @@
+
+["Education"]
+degree = "Short Text"
+# Line above is a syntactic sugar for line below.
+# degree = {primary_type = "Single", secondary_type = "Short Text"}
+department = "Short Text"
+date = ["Short Text", "Date"]
+# Line above means date is either a "Short Text", or a "Date"
+# which means a structured date defined in TOML standard.
+name = "Short Text"
+location = "Short Text"
+text = {primary_type = "List", secondary_type = "Short Text"}
+
+["Custom Projects"]
+name = "Short Text"
+context = "Short Text"
+text = "Long Text"
+skills = "Short Text List"
+
+["Custom Publications"]
+link = "URL"
+name = "Short Text"
+venue = "Short Text"
+authors = "Short Text List"
+
+["Custom Organization"]
+name = "Short Text"
+location = "Short Text"
+roles = "Role List"
+text = "Long Text"
+
+["Role"]
+role = "Short Text"
+start_date = ["Short Text", "Date"]
+end_date = ["Short Text", "Date"]
+
+
+["Organization"]
+name = "Short Text"
+location = "Short Text"
+text = "Long Text"
+role = "Short Text"
+start_date = ["Short Text", "Date"]
+end_date = ["Short Text", "Date"]
+
+
+

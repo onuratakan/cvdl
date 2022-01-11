@@ -1,0 +1,119 @@
+
+["Header"]
+name = "Alperen Keles"
+photograph = "keles.png"
+email = "akeles@umd.edu"
+github = "github.com/alpaylan"
+linkedin = "linkedin.com/in/alpkeles"
+
+["Education"]
+section.type = "Education"
+section.items = ["umd", "metu"]
+
+umd.degree = "Doctorate of Philosophy"
+umd.department = "Computer Science"
+umd.start_date = "2021"
+umd.end_date = "2026(Expected)"
+umd.name = "University of Maryland, College Park"
+umd.location = "Maryland, USA"
+
+
+metu.degree = "Bachelor of Engineering"
+metu.department = "Computer Engineering"
+metu.start_date = "2017"
+metu.end_date = "2021"
+metu.name = "Middle East Technical University"
+metu.location = "Ankara, Turkey"
+metu.text = ["Ranked ***1713rd***, National University Entrance Examination ***(top 0.1% in 2 million)***",
+"_GPA_: 3.66/4.0 ***(top 5% in class of 229)***"]
+
+["Current Projects"]
+section.type = "Custom Projects"
+section.items = ["bug"]
+
+bug.name = "Bug Mining and Injection for Benchmarking Property Based Testing"
+bug.context = "As Part of Graduate Level Research"
+bug.text = '''
+Creating benchmarking infrastructures for Property Based Testing tools and research using bug mining and injection.
+'''
+bug.skills = ["Coq", "OCaml", "Python"]
+
+
+
+["Research and Publications"]
+section.type = "Custom Publications"
+section_items = ["dropppp", "pvl"]
+
+dropppp.link = 'https://link.springer.com/chapter/10.1007\%2F978-3-030-39303-8_5'
+dropppp.name = "DroPPPP: A P4 Approach to Mitigating DoS Attacks in SDN"
+dropppp.venue = "The 20th World Conference On Information Security Applications"
+dropppp.authors = ["G. Simsek", "H. Bostan", "A. Sarica", "E. Sarikaya", "A. Keles", "P. Angin", "H. Alemdar", "E. Onur"]
+
+pvl.name = "Protocol Verification Language"
+pvl.venue = "IEEE/ACM International Symposium on Code Generation and Optimization Student Research Competition(Accepted as Poster Presentation)"
+pvl.authors = ["Alperen Keles"]
+
+["Work Experience"]
+section.type = "Custom Organization"
+section.items = ["mc2", "havelsan", "emproof"]
+mc2.name = "University of Maryland - Maryland Cybersecurity Center(MC2)"
+mc2.location = "Maryland, USA(Remote)"
+mc2.roles = [ { role = "Research Intern", start_date = "July 2020", end_date = "December 2020"} ]
+mc2.text = '''
+Worked on application of Inductive Program Synthesis Techniques on Automatic Exploit Generation Domain.
+'''
+
+havelsan.name = "Havelsan"
+havelsan.location = "Ankara, Turkey"
+havelsan.roles = [{role = "Candidate Engineer", start_date = "July 2020", end_date = "July 2021"}]
+havelsan.text = '''
+Worked on a browser based Video Conference Application. Designed and implemented a novel bandwidth detection and video optimization algorithm.
+'''
+havelsan.skills = ["Javascript", "React"]
+
+emproof.name = "Emproof"
+emproof.location = "Bochum, Germany"
+emproof.roles = [
+    {role = "Embedded Security Engineering Intern", start_date = "June 2019", end_date = "September 2019"},
+    {role = "Remote Embedded Security Engineer", start_date = "January 2020", end_date = "April 2020"},
+]
+emproof.text = '''
+Worked on translation validation of binary obfuscation techniques.
+'''
+emproof.skills = ["C++", "Z3", "ARM Assembly"]
+
+
+["Teaching Experience"]
+section.type = "Organization"
+section.items = ["umd", "metu"]
+
+umd.name = "University of Maryland - Computer Science Department"
+umd.location = "Maryland, USA"
+umd.role = "Teaching Assistant for CMSC351 - Algorithms Class"
+umd.start_date = "August 2021"
+umd.end_date = "Present"
+
+metu.name = "Middle East Technical University - Computer Engineering Department"
+metu.location = "Ankara, Turkey"
+metu.role = "Student Assistant for CENG140 - C Programming Class"
+metu.start_date = "February 2019"
+metu.end_date = "June 2019"
+
+
+["Previous Projects"]
+section.type = "Custom Projects"
+section.items = ["pvl", "nids"]
+
+pvl.name = "Protocol Verification Language"
+pvl.context = "Domain Specific Language for Network Protocol Verification"
+pvl.text = '''
+Worked in core language design and developed a symbolic execution based verification engine.
+'''
+pvl.skills = ["Rust", "Z3"]
+
+nids.name = "Network Intrusion Detection System"
+nids.context = "As Part of Guided Research with A Faculty Member"
+nids.text = '''
+Created a NIDS based on CICIDS17 dataset using Random Forest Classifier.
+'''
+nids.skills = ["Python", "Scikit-Learn", "Scipy"]
